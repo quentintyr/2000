@@ -15,7 +15,7 @@ Any random project to commit.
 
 ## 🆕 Run on your own
 
-First Create a new repository on your GitHub profile. Then create a new project in VSCode or anything else. Then open git bash in your project folder.
+First Create a new repository without a **readme.md file** on your GitHub profile. Then create a new project in VSCode or anything else. Then open git bash in your project folder.
 Then run the following commands
 
 ```bash
@@ -25,6 +25,7 @@ git init
 ```bash
 git add --all
 ```
+please note that it does not work with years later than 1970 (last test)
 ```bash
 git commit --date="YYYY-MM-DD HH:MM:SS" -m "COMMIT MESSAGE"
 ```
